@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dmarget/cday0/ex01/Contact.hpp
+iostream
+-
+
+/Users/dmarget/cday0/ex01/Phonebook.cpp
+Phonebook.hpp
+/Users/dmarget/cday0/ex01/Phonebook.hpp
+iostream
+/Users/dmarget/cday0/ex01/iostream
+
+/Users/dmarget/cday0/ex01/Phonebook.hpp
+Contact.hpp
+/Users/dmarget/cday0/ex01/Contact.hpp
+
